@@ -1,5 +1,5 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
-## AIM
+## AIM:
 To write a python program to perform sliding window protocol
 ## ALGORITHM:
 1. Start the program.
@@ -8,7 +8,7 @@ To write a python program to perform sliding window protocol
 4. To send frames to server from the client side.
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
-## PROGRAM
+## PROGRAM:
 ## CLIENT:
 ```
 import socket
@@ -39,10 +39,10 @@ while True:
     print(s.recv(1024).decode())
     s.send("acknowledgement recived from the server".encode())
 ```
-## OUTPUT
+## OUTPUT:
 ## CLIENT:
 ![alt text](Client.png)
 ## SERVER:
 ![alt text](Server.png)
-## RESULT
+## RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed
